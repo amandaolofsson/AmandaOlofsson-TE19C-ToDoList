@@ -1,0 +1,22 @@
+body {
+  background-color: skyblue;
+}
+
+header h2 {
+  margin-top: 7vw;
+  color: white;
+  font-size: 40px;
+}
+
+ul li {
+  cursor: pointer;
+}
+
+li.checked {
+  color: darkgray;
+  text-decoration: line-through;
+}
+
+ul li.list-group-item:hover {
+  background: #ddd;
+}
